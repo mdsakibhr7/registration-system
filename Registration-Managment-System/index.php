@@ -50,38 +50,38 @@ if ( isset( $_POST['register'] ) ) {
                         <form action="" method="POST" id="registration-form-data">
 
                             <div class="form-outline mb-4">
-                                <input type="text" id="your-name" name="firstname" class="form-control form-control-lg"/>
+                                <input type="text" id="your-name" name="firstname" class="form-control form-control-lg" required/>
                                 <label class="form-label" for="your-name">Your Name</label>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input type="text" id="address" name="address" class="form-control form-control-lg"/>
+                                <input type="text" id="address" name="address" class="form-control form-control-lg" required/>
                                 <label class="form-label" for="address">Address</label>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input type="email" id="email" name="email" class="form-control form-control-lg"/>
+                                <input type="email" id="email" name="email" class="form-control form-control-lg" required/>
                                 <label class="form-label" for="email">Your Email</label>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input type="text" id="mobile" name="mobile" class="form-control form-control-lg"/>
+                                <input type="text" id="mobile" name="mobile" class="form-control form-control-lg" required/>
                                 <label class="form-label" for="mobile">Mobile Number</label>
                             </div>
 
 
                             <div class="form-outline mb-4">
-                                <input type="text" id="gender" name="gender" class="form-control form-control-lg"/>
+                                <input type="text" id="gender" name="gender" class="form-control form-control-lg" required/>
                                 <label class="form-label" for="gender">Gender</label>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input type="text" id="subject" name="subject" class="form-control form-control-lg"/>
+                                <input type="text" id="subject" name="subject" class="form-control form-control-lg" required/>
                                 <label class="form-label" for="subject">Subject</label>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input type="password" id="password" name="password" class="form-control form-control-lg"/>
+                                <input type="password" id="password" name="password" class="form-control form-control-lg" required/>
                                 <label class="form-label" for="password">Password</label>
                             </div>
 
